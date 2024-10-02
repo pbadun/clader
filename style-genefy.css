@@ -1,3 +1,10 @@
+/*.intro * {*/
+/*    all: unset;*/
+/*    margin: 0;*/
+/*    padding: 0;*/
+/*    box-sizing: border-box; !* Восстанавливаем нужные стили *!*/
+/*}*/
+
 .intro h1 {
     font-size: 2.5em;
     font-weight: bold;
@@ -7,19 +14,30 @@
 .intro h2 {
     font-size: 2em;
     font-weight: bold;
-    margin-bottom: 0.5em;
+    padding: 25px 0 25px 0;
+    margin-bottom: 25px;
+    border-bottom: 1px #EEE solid;
+    border-top: 1px #EEE solid;
 }
 
 .intro h3 {
     font-size: 1.75em;
     font-weight: bold;
-    margin-bottom: 0.5em;
+    /*margin-bottom: 0.5em;*/
+    padding: 25px 0 25px 0;
+    margin-bottom: 25px;
+    border-bottom: 1px #EEE solid;
+    border-top: 1px #EEE solid;
 }
 
 .intro h4 {
     font-size: 1.5em;
     font-weight: bold;
-    margin-bottom: 0.5em;
+    /*margin-bottom: 0.5em;*/
+    padding: 25px 0 25px 0;
+    margin-bottom: 25px;
+    border-bottom: 1px #EEE solid;
+    border-top: 1px #EEE solid;
 }
 
 .intro h5 {
@@ -39,7 +57,7 @@
     border-radius: 15px; /* РћРєСЂСѓРіР»С‹Рµ СѓРіР»С‹ */
     padding: 20px; /* РћС‚СЃС‚СѓРїС‹ РІРЅСѓС‚СЂРё Р±Р»РѕРєР° */
     box-shadow: 0 0 10px rgba(0, 0, 0, 0.1); /* Р›РµРіРєР°СЏ С‚РµРЅСЊ РґР»СЏ РѕР±СЉРµРјР° */
-    margin-bottom: 20px;
+    margin-bottom: 60px;
 }
 
 .intro .jumbotron p {
@@ -48,9 +66,7 @@
     line-height: 1.5; /* РњРµР¶СЃС‚СЂРѕС‡РЅС‹Р№ РёРЅС‚РµСЂРІР°Р» РґР»СЏ СѓРґРѕР±СЃС‚РІР° С‡С‚РµРЅРёСЏ */
 }
 
-/* РЎС‚РёР»Рё РґР»СЏ РїР°СЂР°РіСЂР°С„РѕРІ */
 .intro p {
-
     line-height: 1.6;
     color: #555;
     padding-bottom: 20px;
@@ -60,7 +76,6 @@
 .intro ul {
     margin: 0 0 1em 1.5em;
     padding: 10px;
-    list-style-type: none; /* РЈР±РёСЂР°РµРј СЃС‚Р°РЅРґР°СЂС‚РЅС‹Рµ РјР°СЂРєРµСЂС‹ СЃРїРёСЃРєР° */
     color: #555;
     line-height: 1.6;
     list-style: none;
@@ -72,26 +87,35 @@
 }
 
 .intro ul li::before {
-    content: "\2713"; /* Р®РЅРёРєРѕРґ СЃРёРјРІРѕР» РґР»СЏ РіР°Р»РѕС‡РєРё */
-    color: green; /* Р¦РІРµС‚ РіР°Р»РѕС‡РєРё */
-    font-weight: bold; /* Р–РёСЂРЅС‹Р№ С€СЂРёС„С‚ РґР»СЏ РіР°Р»РѕС‡РєРё */
-    position: absolute; /* РђР±СЃРѕР»СЋС‚РЅРѕРµ РїРѕР·РёС†РёРѕРЅРёСЂРѕРІР°РЅРёРµ */
-    left: 0; /* Р’С‹СЂР°РІРЅРёРІР°РЅРёРµ РїРѕ Р»РµРІРѕРјСѓ РєСЂР°СЋ */
-    top: 0; /* Р’С‹СЂР°РІРЅРёРІР°РЅРёРµ РїРѕ РІРµСЂС…РЅРµРјСѓ РєСЂР°СЋ */
+    content: "\2713";
+    color: green;
+    font-weight: bold;
+    position: absolute;
+    left: 0;
+    top: 0;
 }
 
 .intro ol {
     margin: 0 0 1em 1.5em;
-    padding: 0;
+    padding: 10px;
     list-style-type: decimal;
     color: #555;
     line-height: 1.6;
 }
 
 .intro ol li {
+    padding-left: 2.1em;
     margin: 0.5em 0;
 }
 
+.intro ol li:before {
+    content: none;
+    display: none;
+}
+
+.intro ol li::marker {
+    margin-left: 15px;
+}
 
 /* РЎС‚РёР»Рё РґР»СЏ С‚Р°Р±Р»РёС† */
 .intro table {
@@ -311,7 +335,7 @@
     border-radius: 15px; /* РћРєСЂСѓРіР»С‹Рµ СѓРіР»С‹ */
     padding: 20px; /* РћС‚СЃС‚СѓРїС‹ РІРЅСѓС‚СЂРё Р±Р»РѕРєР° */
     box-shadow: 0 0 10px rgba(0, 0, 0, 0.1); /* Р›РµРіРєР°СЏ С‚РµРЅСЊ РґР»СЏ РѕР±СЉРµРјР° */
-    margin-bottom: 20px;
+    margin-bottom: 60px;
 }
 
 .intro.jumbotron p {
@@ -408,9 +432,8 @@
 /*Скрываем галочки если у нас есть иконки*/
 /* Обновленные стили для списков */
 .intro ul {
-    list-style: none !important;
     list-style-type: none;
-    padding-left: 1.5em;
+    /*padding-left: 1.5em;*/
 }
 
 .intro ul li {
@@ -419,6 +442,11 @@
     padding-top: 3px;
 }
 
+.intro ul li:before {
+    background-image: none !important;
+}
+
+
 .intro ul li::before {
     content: "\2713"; /* Unicode символ для галочки */
     color: green;
@@ -426,6 +454,7 @@
     left: 0;
     top: 0;
 }
+
 
 /* Новое правило для скрытия галочки, если есть иконка */
 .intro ul li:has(i)::before {
