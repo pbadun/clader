@@ -1,0 +1,8 @@
+<link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/pbadun/clader@main/style.css">
+
+https://github.com/pbadun/clader/blob/main/style.css
+
+https://raw.githubusercontent.com/pbadun/clader/main/style.css
+https://cdn.jsdelivr.net/gh/user/repo@version/file
+<link rel="stylesheet" href="https://raw.githubusercontent.com/pbadun/clader/main/style.css">
+<link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/Sokovnina/Style@main/style.css">
