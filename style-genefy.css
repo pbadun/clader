@@ -63,6 +63,7 @@
     list-style-type: none; /* РЈР±РёСЂР°РµРј СЃС‚Р°РЅРґР°СЂС‚РЅС‹Рµ РјР°СЂРєРµСЂС‹ СЃРїРёСЃРєР° */
     color: #555;
     line-height: 1.6;
+    list-style: none;
 }
 
 .intro ul li {
