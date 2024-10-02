@@ -407,6 +407,7 @@
 /*Скрываем галочки если у нас есть иконки*/
 /* Обновленные стили для списков */
 .intro ul {
+    list-style: none !important;
     list-style-type: none;
     padding-left: 1.5em;
 }
